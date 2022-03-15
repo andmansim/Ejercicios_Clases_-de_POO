@@ -1,3 +1,4 @@
+#Primer ejercicio
 class Palindromo():
     
     def esPalindromo(f):
