@@ -35,12 +35,17 @@ class Palindromo:
             f2 = self.palabra[i] + f2  # pasa la primera letra al final y la guarda en una nueva cadena     
         
         #Comparamos la frase inicial con el resultado y decimos si es o no
-    
+        
         if f2 == self.palabra:
             return True
         else:
             return False
-
+    def __del__(self):
+        print(self.palabra.upper())
+        
 #creando instancias
 p = Palindromo("radar")
 print(p.test())
+p = Palindromo("sonar")
+print(p.test())
+
