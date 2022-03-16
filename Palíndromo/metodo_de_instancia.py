@@ -47,5 +47,5 @@ class Palindromo:
 p = Palindromo("radar")
 print(p.test())
 p = Palindromo("sonar")
-print(p.test())
+print(p.test()) #REVISAR----------------------
 
