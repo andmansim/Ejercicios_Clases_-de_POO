@@ -37,5 +37,3 @@ class Palindromo():
         else:
             return False
 
-
-print(Palindromo.esPalindromo("Os ó"))
