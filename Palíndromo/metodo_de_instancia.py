@@ -1,5 +1,5 @@
 #Segundo ejercicio
-class Palindromo():
+class Palindromo:
     
     def __init__(self, palabra):
         self.palabra = palabra
