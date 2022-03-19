@@ -1,5 +1,5 @@
 #Segundo ejercicio
-class Palindromo:
+class Palindromo():
     
     def __init__(self, palabra):
         self.palabra = palabra
@@ -43,9 +43,5 @@ class Palindromo:
     def __del__(self):
         print(self.palabra.upper())
         
-#creando instancias
-p = Palindromo("radar")
-print(p.test())
-p = Palindromo("sonar")
-print(p.test()) #REVISAR----------------------
+
 

@@ -1,4 +1,5 @@
 import metodo_de_clase
+import metodo_de_instancia
 
 
 if __name__=="__main__":
@@ -8,6 +9,8 @@ if __name__=="__main__":
     if user == 1:
         print(metodo_de_clase.Palindromo.esPalindromo("Os ó"))
     elif user == 2:
-        pass
+        metodo_de_instancia.Palindromo("radar")
+        print(metodo_de_instancia.Palindromo.test())
+
     else:
         print("Por favor elija entre 1 y 2")
