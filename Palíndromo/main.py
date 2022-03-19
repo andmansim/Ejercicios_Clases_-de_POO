@@ -1,3 +1,4 @@
+from typing_extensions import Self
 import metodo_de_clase
 import metodo_de_instancia
 
