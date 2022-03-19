@@ -1,12 +1,7 @@
-class A:
-    def z(self):
-        return self
-    
-    def y (self, t):
-        return len(t)
+#El resultado del codigo proporcionado es:
 
-a = A
-y = a.z
-print(y(a))
-aa = a()
-print(aa)
+#False
+#0
+#1
+#2
+#3
