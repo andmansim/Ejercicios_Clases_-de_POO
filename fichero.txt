@@ -1,6 +1,6 @@
 start log
-buenas tardes
-buenas tardes
-buenas tardes
-buenas tardes
+kokoko
+kokoko
+kokoko
+kokoko
 end log:4log(s)
