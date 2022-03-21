@@ -1,11 +1,6 @@
 start log
-rezo
-rezo
-rezo
-rezo
-rezo
-rezo
-rezo
-rezo
-rezo
-end log:9log(s)
+:(
+:(
+:(
+:(
+end log:4log(s)
