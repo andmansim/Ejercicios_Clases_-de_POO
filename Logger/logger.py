@@ -13,7 +13,7 @@ class Logger:
         return f
 
 class Test:
-    def __init__(self):
+    def __init__(self): #esta funcion constructor llama a la funcion de la clase logger
         mensajito = Logger(mensaje, ene)
         mensajito.log_mensaje()
         f = open("fichero.txt", "r")
@@ -25,23 +25,12 @@ class Test:
         f.close()
     
 
+
 print("¿Que mensaje quiere añadir en el archivo?")
 mensaje = input()
 print("¿Cuántas veces lo quiere añadir?")
 ene = int(input())
 testeo = Test()
 print(testeo)
-'''mensajito = Logger(mensaje, ene)
-mensajito.log_mensaje()
-f = open("fichero.txt", "r")
-contador = 0
-for line in f:
-    contador = contador + 1
-    if contador <= ene + 2:
-        print(line)
-f.close()'''
-#llamar a logger en una funcion llamada de una clases Test
-#class Test:
-    #esta clase llama a la clase logger con una funcion
 
 
