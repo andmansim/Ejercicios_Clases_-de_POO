@@ -116,3 +116,13 @@ class Palindromo:
     def __del__(self):
         print(self.palabra.upper())
 ```
+El tercer ejercicio consiste en resolver una pregunta, cuya respuesta es la siguiente:
+```
+#El resultado del codigo proporcionado es:
+
+#False
+#0
+#1
+#2
+#3
+```
