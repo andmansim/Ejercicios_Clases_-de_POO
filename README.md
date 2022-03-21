@@ -126,3 +126,10 @@ El tercer ejercicio consiste en resolver una pregunta, cuya respuesta es la sigu
 #2
 #3
 ```
+El último ejercicio es el de Logger. Su diagrama UML es el siguiente:
+
+![diagrama uml logger](/Logger/loggerdrawio.jpg)
+
+```
+
+```
