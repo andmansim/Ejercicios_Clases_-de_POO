@@ -7,11 +7,11 @@ https://github.com/andmansim/Ejercicios_Clases_-de_POO.git
 Hemos realizado una serie de ejercicios, los cuales consiste en crear clases y trabajar con ellas.
 El primer ejercicio es Palíndromo, método de clases. Su diagrama UML es el siguiente:
 
-![diagrama uml metodo clases](/Palíndromo/metodo_de_clases.jpg)
+![diagrama uml metodo clases](/Palindromo/metodo_de_clases.jpg)
 
 El segundo ejercicio es Palíndromo, método de instancia. Su diagrama UML es el siguiente:
 
-![diagrama uml metodo instancia](/Palíndromo/metodo_de_instancia.jpg)
+![diagrama uml metodo instancia](/Palindromo/metodo_de_instancia.jpg)
 
 ```
 import metodo_de_clase
