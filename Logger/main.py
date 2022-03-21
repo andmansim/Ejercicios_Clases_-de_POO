@@ -5,4 +5,4 @@ if __name__ == "__main__":
     mensaje = input()
     print("¿Cuántas veces lo quiere añadir?")
     ene = int(input())
-    testeo = logger.Test()
+    testeo = logger.Test(mensaje, ene)

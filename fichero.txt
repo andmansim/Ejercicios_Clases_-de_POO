@@ -1,6 +1,4 @@
 start log
-:(
-:(
-:(
-:(
-end log:4log(s)
+lol
+lol
+end log:2log(s)
