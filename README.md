@@ -131,5 +131,12 @@ El último ejercicio es el de Logger. Su diagrama UML es el siguiente:
 ![diagrama uml logger](/Logger/loggerdrawio.jpg)
 
 ```
+import logger
 
+if __name__ == "__main__":
+    print("¿Que mensaje quiere añadir en el archivo?")
+    mensaje = input()
+    print("¿Cuántas veces lo quiere añadir?")
+    ene = int(input())
+    testeo = logger.Test(mensaje, ene)
 ```
