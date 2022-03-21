@@ -26,11 +26,3 @@ class Test:
     
 
 
-'''print("¿Que mensaje quiere añadir en el archivo?")
-mensaje = input()
-print("¿Cuántas veces lo quiere añadir?")
-ene = int(input())
-testeo = Test()
-print(testeo)'''
-
-
