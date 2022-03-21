@@ -12,12 +12,26 @@ class Logger:
         f.close()
         return f
 
+class Test:
+    def __init__(self):
+        mensajito = Logger(mensaje, ene)
+        mensajito.log_mensaje()
+        f = open("fichero.txt", "r")
+        contador = 0
+        for line in f:
+            contador = contador + 1
+            if contador <= ene + 2:
+                print(line)
+        f.close()
+    
 
 print("¿Que mensaje quiere añadir en el archivo?")
 mensaje = input()
 print("¿Cuántas veces lo quiere añadir?")
 ene = int(input())
-mensajito = Logger(mensaje, ene)
+testeo = Test()
+print(testeo)
+'''mensajito = Logger(mensaje, ene)
 mensajito.log_mensaje()
 f = open("fichero.txt", "r")
 contador = 0
@@ -25,7 +39,9 @@ for line in f:
     contador = contador + 1
     if contador <= ene + 2:
         print(line)
-f.close()
+f.close()'''
 #llamar a logger en una funcion llamada de una clases Test
 #class Test:
     #esta clase llama a la clase logger con una funcion
+
+
